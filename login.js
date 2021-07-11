@@ -21,5 +21,4 @@ function addData(e){
 
 checkData();
 loginForm.addEventListener("submit", addData);
-console.log(localStorage.getItem("name"));
 
