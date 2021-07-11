@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>To NomaDo</title>
+</head>
+<body>
+    <section class="main">
+        <div class="clock">
+            <h1>Since Genisys Started...</h1>
+            <h1 id="time">00:00:00</h2>
+        </div>
+        <div id="weather">
+        </div>
+        <div class="user">
+            <form id="loginForm" class="hidden">
+                <input type="text" placeholder="What is your name?"></input>
+            </form>
+            <h1 id="greeting" class="hidden"></h1>
+        </div>
+        <div class="todos">
+            <form id="todoForm">
+                <input type="text" placeholder="Enter Todo">
+            </form>
+        </div>
+    </section>
+    <script src="./timer.js"></script>
+    <script src="./login.js"></script>
+    <script src="./todo.js"></script>
+    <script src="./background.js"></script>
+    <script src="./weather.js"></script>
+</body>
+</html>
